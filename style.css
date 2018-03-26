@@ -1,0 +1,168 @@
+﻿body {
+    background-image: url('https://www.esnmurcia.es/2016/sites/default/files/events/galleries/valencia_03.jpg');   
+    text-align: center;
+}
+
+.contacto {
+    background-color: #3edbe8;
+    height: 140px;
+    width: 100%;
+    margin-right: 50px;
+    margin: 0 auto;
+
+}
+
+.mapa {
+    height: 180px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+/* ------------------- "VENTANA PUBLICITARIA" */
+
+#publicidad{
+    background-color: white;
+    border: solid 1px #c9c9c9;
+    width: 450px;
+    height: 360px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 5%;
+    position: fixed;
+}
+
+.textopubli {
+    margin: 10px;
+    font-family: gadugi;
+    font-size: 10px;
+    color: gray;
+}
+
+#cerrar {cursor: pointer;}
+
+.logo {
+    width:220px;
+    height:39px;
+    margin-top:10px;
+}
+
+.texto {
+    float: left;
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    font-size: 36px;
+}
+
+
+
+/* ------------------- HEADER */
+.web-header {
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    left: 0px;
+    }
+
+/* LINKS */
+.conectate {
+    margin-left: 10px;
+}
+
+.registro {
+    background-color: #3edbe8;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+a {color: gray;}
+
+
+/* ------------------- CUERPO GENERAL DE LA PÁGINA Y DIFERENTES TÍTULOS */
+.cuerpo {
+    margin-top: 500px;
+    padding: 0px 100px 100px 100px;
+    background-color:white;
+}
+
+.titulo {
+    padding: 20px;
+    border-bottom: solid 1px #c9c9c9;
+    text-align: center;
+}
+
+.titulocontacto {
+    font-family:gadugi;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+/* IMÁGENES MARCAS */
+.marcas {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+
+/* ------------------- "PUNTOS DE RECOGIDA" */
+
+.puntos {
+    margin-top: 50px;
+ }
+
+#contenedor1 {
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    background-color: #3edbe8;
+    justify-content: center;
+ }
+ #contenedor2 {
+    height: 150px;
+    margin: auto 0;
+    text-align: center;
+	 margin-top: 17px;
+ }
+
+.info {
+    width: 90%;
+    margin: 15px 0px 10px 10px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+ ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ li{
+    margin:20px;
+    margin-left: 0px;
+    font-size:14px;
+    font-family: gadugi;
+    color: gray;
+    cursor: pointer;
+ }
+
+ .destacar{
+    color:#FFF;
+ }
